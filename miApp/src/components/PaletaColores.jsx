@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
-import { useColors } from "../context/ColorContext";
+import { useColors } from "../context/ColorContexto";
 
 const PaletaColores = () => {
   const { backgroundColor, setBackgroundColor, titleColor, setTitleColor, textColor, setTextColor} = useColors();

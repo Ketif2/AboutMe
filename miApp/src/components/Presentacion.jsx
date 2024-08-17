@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import actualImage from '../assets/Retrato.png';
-import { useColors } from'../context/ColorContext';
+import { useColors } from'../context/ColorContexto';
 
 const Presentation = () => {
   const { backgroundColor, titleColor, textColor } = useColors();

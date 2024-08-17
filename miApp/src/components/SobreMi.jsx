@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components.css";
-import { useColors } from'../context/ColorContext';
+import { useColors } from'../context/ColorContexto';
 
 const AboutMe = () => {
 

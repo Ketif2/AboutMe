@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useColors } from'../context/ColorContext';
+import { useColors } from'../context/ColorContexto';
 
 const Motivo = () => {
 
