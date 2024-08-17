@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.color-principal1 {
-  background-color: #FFD83B;
-}
-
 .color-principal2{
   background-color: #000000;
 }
-
-* {border: 1px solid #000000;} /*Pongo bordes a todo*/
 
 img{
   filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 10.10));

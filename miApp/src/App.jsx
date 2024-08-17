@@ -6,10 +6,12 @@ import AboutMe from "./components/AboutMe";
 import Inspiracion from "./components/Inspiracion";
 import PaletaColores from "./components/PaletaColores";
 import Motivo from "./components/Motivo";
+import { ColorProvider } from"./context/ColorContext"; 
 
 function App() {
   return (
     <Router>
+      <ColorProvider> 
       <Routes>
         <Route path="/" element={<Presentation />} />
         <Route path="/quotable1" element={<Quotable nextPath="/aboutme" />} />
@@ -21,6 +23,7 @@ function App() {
         <Route path="/quotable4" element={<Quotable nextPath="/paletacolores" />}/>
         <Route path="/paletacolores" element={<PaletaColores />} />
       </Routes>
+      </ColorProvider>
     </Router>
   );
 }
