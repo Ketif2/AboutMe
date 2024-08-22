@@ -15,11 +15,15 @@ const Inspiracion = () => {
             para el mundo sin dejar de moverme. Soy Kevin Revelo, al principio
             sabrás de mí por código y al terminar, por persona.
           </p>
-      <div className="flex justify-end">
+      <div className="flex justify-end flex space-x-2">
+        <Link to="/aboutme"  className="btn-custom">
+          Regresar
+        </Link>
         <Link to="/quotable3" className="btn-custom">
           Siguiente
         </Link>
       </div>
+
     </div>
   );
 };

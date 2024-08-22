@@ -15,8 +15,11 @@ const Motivo = () => {
         olas de las nuevas generaciones están en su cúspide, por lo que, busco
         de este proyecto y motivación, abrirme paso para el futuro que anhelo.
       </p>
-      <div className="flex justify-end">
-        <Link to="/quotable4" className="btn-custom">
+      <div className="flex justify-end flex space-x-2">
+        <Link to="/inspiracion"  className="btn-custom">
+          Regresar
+        </Link>
+        <Link to="/quotable4"  className="btn-custom">
           Siguiente
         </Link>
       </div>
