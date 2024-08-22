@@ -17,7 +17,10 @@ const AboutMe = () => {
         día con cada lección, aprovechar las oportunidades presentes, y conseguir
         objetivos que me ayudarán a lograr mi sueño.
       </p>
-      <div className="flex justify-end">
+      <div className="flex justify-end flex space-x-2">
+        <Link to="/"  className="btn-custom">
+          Regresar
+        </Link>
         <Link to="/quotable2"  className="btn-custom">
           Siguiente
         </Link>

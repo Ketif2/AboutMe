@@ -88,8 +88,11 @@ const PaletaColores = () => {
         </div>
 
       </div>
-      <div className="flex justify-end mt-10">
-        <Link to="/" className="btn-custom">
+      <div className="flex justify-end flex space-x-2">
+        <Link to="/motivo"  className="btn-custom">
+          Regresar
+        </Link>
+        <Link to="/"  className="btn-custom">
           Inicio
         </Link>
       </div>
