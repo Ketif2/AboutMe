@@ -37,7 +37,10 @@ Sigue estos pasos para configurar el proyecto localmente:
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue estos pasos:
 
 Haz un fork del proyecto.
-Crea una nueva rama: git checkout -b feature/nueva-funcionalidad
-Realiza tus cambios y haz commit: git commit -am 'Añadir nueva funcionalidad'
-Sube tus cambios: git push origin feature/nueva-funcionalidad
-Abre un Pull Request.
+- Crea una nueva rama: git checkout -b feature/nueva-funcionalidad
+- Realiza tus cambios y haz commit: git commit -am 'Añadir nueva funcionalidad'
+- Sube tus cambios: git push origin feature/nueva-funcionalidad
+- Abre un Pull Request.
+
+## ¿Por qué quiero pertenecer a los grupos de frontend?
+Los desafíos que me permiten crecer son precisamente lo que anhelo superar. No quiero quedarme quieto mientras el mundo sigue avanzando, especialmente en un momento donde las nuevas generaciones están en su apogeo. Por eso, a través de este proyecto y con la motivación que me impulsa, quiero abrirme camino hacia el futuro que tanto deseo.
