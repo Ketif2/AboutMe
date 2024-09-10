@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useColors } from'../context/ColorContexto';
+import { useColors } from'../context/ColorContext';
 
 const Motivo = () => {
 
@@ -15,7 +15,7 @@ const Motivo = () => {
         olas de las nuevas generaciones están en su cúspide, por lo que, busco
         de este proyecto y motivación, abrirme paso para el futuro que anhelo.
       </p>
-      <div className="flex justify-end flex space-x-2">
+      <div className="flex justify-end space-x-2">
         <Link to="/inspiracion"  className="btn-custom">
           Regresar
         </Link>

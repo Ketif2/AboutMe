@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useColors } from'../context/ColorContexto';
+import { useColors } from'../context/ColorContext';
 
 const Inspiracion = () => {
   const { backgroundColor, titleColor, textColor } = useColors();
@@ -15,7 +15,7 @@ const Inspiracion = () => {
             para el mundo sin dejar de moverme. Soy Kevin Revelo, al principio
             sabrás de mí por código y al terminar, por persona.
           </p>
-      <div className="flex justify-end flex space-x-2">
+      <div className="flex justify-end space-x-2">
         <Link to="/aboutme"  className="btn-custom">
           Regresar
         </Link>

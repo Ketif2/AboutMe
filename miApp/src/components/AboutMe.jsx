@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components.css";
-import { useColors } from'../context/ColorContexto';
+import { useColors } from'../context/ColorContext';
 
 const AboutMe = () => {
 
@@ -17,7 +17,7 @@ const AboutMe = () => {
         día con cada lección, aprovechar las oportunidades presentes, y conseguir
         objetivos que me ayudarán a lograr mi sueño.
       </p>
-      <div className="flex justify-end flex space-x-2">
+      <div className="flex justify-end space-x-2">
         <Link to="/"  className="btn-custom">
           Regresar
         </Link>

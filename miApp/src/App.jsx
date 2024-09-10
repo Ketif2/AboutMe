@@ -1,27 +1,27 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Presentacion from "./components/Presentacion";
-import Citas from "./components/Citas";
-import SobreMi from "./components/SobreMi";
-import Inspiracion from "./components/Inspiracion";
-import PaletaColores from "./components/PaletaColores";
-import Motivo from "./components/Motivo";
-import { ColorProvider } from"./context/ColorContexto"; 
+import Presentation from "./components/Presentation";
+import Quotes from "./components/Quotes";
+import AboutMe from "./components/AboutMe";
+import Inspiration from "./components/Inspiration";
+import ColorPalette from "./components/ColorPalette";
+import Purpose from "./components/Purpose";
+import { ColorProvider } from"./context/ColorContext"; 
 
 function App() {
   return (
     <Router>
       <ColorProvider> 
       <Routes>
-        <Route path="/" element={<Presentacion />} />
-        <Route path="/quotable1" element={<Citas nextPath="/aboutme" />} />
-        <Route path="/aboutme" element={<SobreMi />} />
-        <Route path="/quotable2" element={<Citas nextPath="/inspiracion" />}/>
-        <Route path="/inspiracion" element={<Inspiracion />} />
-        <Route path="/quotable3" element={<Citas nextPath="/motivo" />}/>
-        <Route path="/motivo" element={<Motivo />} />
-        <Route path="/quotable4" element={<Citas nextPath="/paletacolores" />}/>
-        <Route path="/paletacolores" element={<PaletaColores />} />
+        <Route path="/" element={<Presentation />} />
+        <Route path="/quotable1" element={<Quotes nextPath="/aboutme" />} />
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/quotable2" element={<Quotes nextPath="/inspiracion" />}/>
+        <Route path="/inspiracion" element={<Inspiration />} />
+        <Route path="/quotable3" element={<Quotes nextPath="/motivo" />}/>
+        <Route path="/motivo" element={<Purpose />} />
+        <Route path="/quotable4" element={<Quotes nextPath="/paletacolores" />}/>
+        <Route path="/paletacolores" element={<ColorPalette />} />
       </Routes>
       </ColorProvider>
     </Router>

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../index.css";
-import { useColors } from "../context/ColorContexto";
+import { useColors } from "../context/ColorContext";
 
 const PaletaColores = () => {
   const { backgroundColor, setBackgroundColor, titleColor, setTitleColor, textColor, setTextColor} = useColors();
@@ -88,7 +88,7 @@ const PaletaColores = () => {
         </div>
 
       </div>
-      <div className="flex justify-end flex space-x-2">
+      <div className="flex justify-end space-x-2">
         <Link to="/motivo"  className="btn-custom">
           Regresar
         </Link>
